@@ -27,9 +27,9 @@ $pm = [];
 
 foreach ($db as $key => $value) {
     if ($key == 'teachers') {
-        array_push($teachers, $value);
+        $teachers = $value;
     } else {
-        array_push($pm, $value);
+        $pm = $value;
     };
 }
 
@@ -48,17 +48,23 @@ foreach ($db as $key => $value) {
 <body>
     <main>
         <div class="greybox">
-
-            <?php
-            foreach ($teachers as $key => $value) {
-                echo $value['lastname'];
-                echo $value['name'];
-            } ?>
-
+            <ul>
+                <?php
+                foreach ($teachers as $key => $value) {
+                    echo "<li>" . "lastname:" . $value['lastname'] . "</li>";
+                    echo "<li>" . "name:" . $value['name'] . "</li>";
+                } ?>
+            </ul>
         </div>
 
         <div class="greenbox">
-
+            <ul>
+                <?php
+                foreach ($pm as $key => $value) {
+                    echo "<li>" . "lastname:" . $value['lastname'] . "</li>";
+                    echo "<li>" . "name:" . $value['name'] . "</li>";
+                } ?>
+            </ul>
         </div>
     </main>
 
