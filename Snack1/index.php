@@ -28,8 +28,10 @@ $basket = [
 
 foreach ($basket as $key => $value) {
     foreach ($basket[$key] as $key => $value) {
-        echo $key;
-        echo "</br>";
+        echo " - ";
         echo $value;
+        if ($key[3]) {
+            echo "</br>";
+        };
     }
 }
