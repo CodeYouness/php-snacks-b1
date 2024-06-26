@@ -30,7 +30,7 @@ foreach ($basket as $key => $value) {
     foreach ($basket[$key] as $key => $value) {
         echo " - ";
         echo $value;
-        if ($key[3]) {
+        if ($key === 'point2') {
             echo "</br>";
         };
     }
