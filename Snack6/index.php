@@ -51,8 +51,7 @@ foreach ($db as $key => $value) {
             <ul>
                 <?php
                 foreach ($teachers as $key => $value) {
-                    echo "<li>" . "lastname:" . $value['lastname'] . "</li>";
-                    echo "<li>" . "name:" . $value['name'] . "</li>";
+                    echo "<li>" .  $value['lastname'] . " " . $value['name'] . "</li>";
                 } ?>
             </ul>
         </div>
@@ -61,8 +60,7 @@ foreach ($db as $key => $value) {
             <ul>
                 <?php
                 foreach ($pm as $key => $value) {
-                    echo "<li>" . "lastname:" . $value['lastname'] . "</li>";
-                    echo "<li>" . "name:" . $value['name'] . "</li>";
+                    echo "<li>" .  $value['lastname'] . " " . $value['name'] . "</li>";
                 } ?>
             </ul>
         </div>
