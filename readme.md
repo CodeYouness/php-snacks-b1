@@ -32,5 +32,11 @@ Qui l’array di [esempio](https://www.codepile.net/pile/R2K5d68z)
 Utilizzare questo [array](https://pastebin.com/CkX3680A) 
 - Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM in un rettangolo verde.
 
+## Snack 7
+- Creare un array contenente qualche alunno di un'ipotetica classe. 
+    - Ogni alunno avrà Nome, Cognome e un array contenente i suoi voti scolastici. 
+- Questo array dovra' essere inserito in un file separato, da importare.
+- Stampare Nome, Cognome e la media dei voti di ogni alunno.
+
 - * Create una cartella per ogni snack, nella stessa repo.
 Buon lavoro a tutte e a tutti!
