@@ -2,43 +2,48 @@
 
 $animals = [
     [
-        'name' => 'filippo',
-        'species' => 'de filippis',
-        'class' => [
-            'math' => rand(1, 10),
-            'france' => rand(1, 10),
-            'english' => rand(1, 10),
-            'engineering' => rand(1, 10),
-        ]
+        'name' => 'Leo',
+        'species' => 'lion',
+        'class' => 'mammals'
     ],
     [
-        'name' => 'filippo',
-        'species' => 'de filippis',
-        'class' => [
-            'math' => rand(1, 10),
-            'france' => rand(1, 10),
-            'english' => rand(1, 10),
-            'engineering' => rand(1, 10),
-        ]
+        'name' => 'Tiger',
+        'species' => 'tiger',
+        'class' => 'mammals'
     ],
     [
-        'name' => 'filippo',
-        'species' => 'de filippis',
-        'class' => [
-            'math' => rand(1, 10),
-            'france' => rand(1, 10),
-            'english' => rand(1, 10),
-            'engineering' => rand(1, 10),
-        ]
+        'name' => 'Elephant',
+        'species' => 'elephant',
+        'class' => 'mammals'
     ],
     [
-        'name' => 'filippo',
-        'species' => 'de filippis',
-        'class' => [
-            'math' => rand(1, 10),
-            'france' => rand(1, 10),
-            'english' => rand(1, 10),
-            'engineering' => rand(1, 10),
-        ]
+        'name' => 'Nemo',
+        'species' => 'clownfish',
+        'class' => 'fish'
     ],
+    [
+        'name' => 'Dory',
+        'species' => 'blue tang',
+        'class' => 'fish'
+    ],
+    [
+        'name' => 'Bubbles',
+        'species' => 'yellow tang',
+        'class' => 'fish'
+    ],
+    [
+        'name' => 'Slither',
+        'species' => 'snake',
+        'class' => 'reptiles'
+    ],
+    [
+        'name' => 'Croc',
+        'species' => 'crocodile',
+        'class' => 'reptiles'
+    ],
+    [
+        'name' => 'Gecko',
+        'species' => 'gecko',
+        'class' => 'reptiles'
+    ]
 ];
