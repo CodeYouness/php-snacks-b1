@@ -42,5 +42,10 @@ Utilizzare questo [array](https://pastebin.com/CkX3680A)
 - Creare un array di animali, che abbiano nome, specie, classe in un file animals.php.
 - Creo quattro array diversi in cui inserire soltanto mammiferi, pesci, rettili e tutti gli altri. Nel nostro index.php stampiamo in pagina ognuno di questi array.
 
+## Snack 9
+- Creiamo due classi, una per rappresentare un Utente ed una per l'utente PremiumUser. 
+- Aggiungiamo una classe Membership da passare nel costruttore della sottoclasse PremiumUser.
+- Cerchiamo di usare il piu' possibile getter e setter per accedere e modificare i dati.
+
 - * Create una cartella per ogni snack, nella stessa repo.
 Buon lavoro a tutte e a tutti!
