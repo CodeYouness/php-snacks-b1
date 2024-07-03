@@ -1,6 +1,6 @@
 <?php 
 
-class user {
+class User {
     protected $username;
     protected $email;
     public function getUsername(){
